@@ -1,37 +1,50 @@
-[
-  {
-    "id": "1",
-    "video_title": "Video 1",
-    "url": "assets/videos/Video1.mp4",
-    "comments": "143",
-    "likes": "3223",
-    "song_name": "Song 1 - Artist 1",
-    "user": "User 1",
-    "user_pic":
-    "assets/images/fan.png"
-  },
-  {
-    "id": "2",
-    "video_title": "Video 2",
-    "url":
-    "assets/videos/Video2.mp4",
-    "comments": "143",
-    "likes": "3223",
-    "song_name": "Song 2 - Artist 2",
-    "user": "User 2",
-    "user_pic":
-    "assets/images/fan.png"
-  },
-  {
-    "id": "3",
-    "video_title": "Video 3",
-    "url":
-    "assets/videos/Video3.mp4",
-    "comments": "143",
-    "likes": "3223",
-    "song_name": "Song 3 - Artist 3",
-    "user": "User 3",
-    "user_pic":
-    "assets/images/fan.png"
-  }
-]
+{
+    "posts": [
+        {
+            "id": "1", 
+            "video_title": "Video 1", 
+            "url": "assets/videos/Video1.mp4", 
+            "comments": "143", 
+            "likes": "3223", 
+            "song_name": "Song 1 - Artist 1", 
+            "user": "User 1", 
+            "user_pic": "assets/images/fan.png"
+        }, 
+        {
+            "id": "2", 
+            "video_title": "Video 2", 
+            "url": "assets/videos/Video2.mp4", 
+            "comments": "143", 
+            "likes": "3223", 
+            "song_name": "Song 2 - Artist 2", 
+            "user": "User 2", 
+            "user_pic": "assets/images/fan.png"
+        }, 
+        {
+            "id": "3", 
+            "video_title": "Video 3", 
+            "url": "assets/videos/Video3.mp4", 
+            "comments": "143", 
+            "likes": "3223", 
+            "song_name": "Song 3 - Artist 3", 
+            "user": "User 3", 
+            "user_pic": "assets/images/fan.png"
+        }
+    ], 
+    "comments": [
+        {
+            "id": 1, 
+            "body": "some comment", 
+            "postId": 1
+        }, 
+        {
+            "id": 2, 
+            "body": "some comment", 
+            "postId": 1
+        }
+    ], 
+    "profile": {
+        "name": "typicode", 
+        "url": "assets/images/fan.png"
+    }
+}
