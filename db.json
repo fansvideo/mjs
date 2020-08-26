@@ -14,7 +14,7 @@
     "id": "2",
     "video_title": "Video 2",
     "url":
-    "assets/videos/Video1.mp4",
+    "assets/videos/Video2.mp4",
     "comments": "143",
     "likes": "3223",
     "song_name": "Song 2 - Artist 2",
@@ -26,7 +26,7 @@
     "id": "3",
     "video_title": "Video 3",
     "url":
-    "assets/videos/Video1.mp4",
+    "assets/videos/Video3.mp4",
     "comments": "143",
     "likes": "3223",
     "song_name": "Song 3 - Artist 3",
